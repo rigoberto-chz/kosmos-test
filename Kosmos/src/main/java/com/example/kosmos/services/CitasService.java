@@ -7,7 +7,6 @@ import org.springframework.stereotype.Service;
 
 import com.example.kosmos.models.CitaVO;
 
-@Service
 public interface CitasService {
 
 	public List<CitaVO> getCitas();

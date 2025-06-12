@@ -6,7 +6,6 @@ import org.springframework.stereotype.Service;
 
 import com.example.kosmos.models.DoctorVO;
 
-@Service
 public interface DoctoresService {
 
 	public List<DoctorVO> getDoctores();
